@@ -1,43 +1,23 @@
 {
-  "name": "Netflix_Clone",
-  "version": "0.1.0",
-  "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "axios": "^0.20.0",
-    "express": "^4.17.1",
-    "movie-trailer": "^2.0.6",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
-    "react-youtube": "^7.12.0"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
   },
+  "name": "netflix-clone",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nilesh-Aditya/Netflix_Clone.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nilesh-Aditya/Netflix_Clone/issues"
   },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
-  }
+  "homepage": "https://github.com/Nilesh-Aditya/Netflix_Clone#readme",
+  "description": ""
 }
